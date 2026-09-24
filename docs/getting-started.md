@@ -37,7 +37,7 @@ extension=mysqli
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/0u2d/covao.git covao
+git clone https://github.com/zeldxh/covao.git covao
 cd covao
 ```
 
@@ -119,7 +119,7 @@ docker compose version
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/0u2d/covao.git covao
+git clone https://github.com/zeldxh/covao.git covao
 cd covao
 ```
 
