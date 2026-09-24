@@ -4,8 +4,8 @@ This guide covers two ways to run covao locally with PHP on your machine. The di
 
 | Option | PHP | MySQL | You need |
 |--------|-----|-------|----------|
-| [A — Pure PHP + MySQL](#option-a-pure-php--mysql) | local | local | PHP, MySQL |
-| [B — PHP local + MySQL in Docker](#option-b-php-local--mysql-in-docker) | local | Docker container | PHP, Docker |
+| [A: Pure PHP + MySQL](#option-a-pure-php--mysql) | local | local | PHP, MySQL |
+| [B: PHP local + MySQL in Docker](#option-b-php-local--mysql-in-docker) | local | Docker container | PHP, Docker |
 
 If you want **everything** in Docker (no local PHP either), see the [Docker Guide](./docker-guide.md) instead.
 
