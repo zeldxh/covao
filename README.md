@@ -1,35 +1,35 @@
 # covao
 
-school cafeteria management system built for covao's cafeteria — a php web application for managing student cafeteria services, meals, billing, and attendance tracking.
+School cafeteria management system built for COVAO's cafeteria. A PHP web application for managing student cafeteria services, meals, billing, and attendance tracking.
 
-## features
+## Features
 
-- role-based access: administrator, billing staff, and client (student/teacher)
-- student and teacher management with excel bulk import
-- meal attendance tracking and billing
-- non-school day calendar management
-- statistics dashboard
-- profile photo uploads
-- automated password generation and email notifications
+- Role-based access: administrator, billing staff, and client (student/teacher)
+- Student and teacher management with Excel bulk import
+- Meal attendance tracking and billing
+- Non-school day calendar management
+- Statistics dashboard
+- Profile photo uploads
+- Automated password generation and email notifications
 
-## setup
+## Setup
 
-there are three ways to run this project. pick whichever fits your environment:
+There are three ways to run this project. Pick whichever fits your environment:
 
-| option | what you install locally | guide |
+| Option | What you install locally | Guide |
 |--------|------------------------|-------|
-| pure php + mysql | php, mysql | [getting started — option a](docs/getting-started.md#option-a-pure-php--mysql) |
-| db only in docker | php, docker | [getting started — option b](docs/getting-started.md#option-b-php-local--mysql-in-docker) |
-| full docker | docker | [docker guide](docs/docker-guide.md) |
+| Pure PHP + MySQL | PHP, MySQL | [Getting started, option A](docs/getting-started.md#option-a-pure-php--mysql) |
+| DB only in Docker | PHP, Docker | [Getting started, option B](docs/getting-started.md#option-b-php-local--mysql-in-docker) |
+| Full Docker | Docker | [Docker guide](docs/docker-guide.md) |
 
-## tech stack
+## Tech Stack
 
-- php 8.x (no frameworks, no composer dependencies)
-- mysql 8.0
-- bootstrap 5.1.3, fontawesome, alertifyjs
-- vanilla javascript
+- PHP 8.x (no frameworks, no Composer dependencies)
+- MySQL 8.0
+- Bootstrap 5.1.3, Font Awesome, AlertifyJS
+- Vanilla JavaScript
 
-## project structure
+## Project Structure
 
 ```
 index.php           entry point
@@ -51,6 +51,6 @@ View/               mvc views
 docs/               documentation
 ```
 
-## license
+## License
 
 MIT License, see [LICENSE](LICENSE).
